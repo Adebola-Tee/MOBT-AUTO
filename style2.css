@@ -17,6 +17,7 @@ body{
 .header-container{
 display: flex;
 align-items: center;
+padding-top:20px;
 }
 .logo-img{
     width:209.38px;
@@ -55,8 +56,8 @@ margin-top: 100px;
 margin-left: 20px;
 width:420px;
 }
-.hero-content>p{
-font-size: 10px;
+.hero-content2>h2{
+margin-bottom: 10px;
 }
 .btn-2{
     width:200px;
@@ -79,7 +80,11 @@ font-size: 10px;
     display: inline-flex;
 }
 .logo-404{
-    margin-left: 250px;
+    margin-top:30px;
+    margin-left: 300px;
+}
+.logo-404 > img{
+    width: 400px;
 }
 .report-link{
     color:yellow;
@@ -88,6 +93,22 @@ font-size: 10px;
 .report-form{
     padding: 20px;
    visibility: hidden;
+}
+.external-links{
+    margin-left: 750px;
+    margin-top: 60px;
+}
+.external-links > h3{
+    color:white;
+    margin-bottom: 10px;
+}
+.external-links > ul{
+    list-style-type: none;
+    line-height: 30px;
+}
+.ex-link{
+    text-decoration: none;
+    color:yellow;
 }
 .openup{
     visibility: visible;
@@ -159,11 +180,12 @@ font-size: 10px;
     color: black;
 }
 .about-section p{
+    width: 500px;
     margin-left: 35%;
-    margin-right: 35%;
     margin-top: 20px;
+    margin-bottom: 50px;
 }
-#foot-er{
-    margin:0px 0px 40px 40px;
-    color: black;
+.fa-long-arrow-right{
+    color:yellow;
+    margin-left: 15px;
 }
